@@ -1,11 +1,8 @@
-* {
+*{
   margin: 5px;
   padding: 0px;
 }
 
-.navber {
-  
-}
 
 .navberContainer {
 
@@ -19,57 +16,3 @@
   text-decoration: none;
 }
 
-
-
-.summary {
-  width: 90%;
-  margin: auto;
-  height: fit-content;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.summaryContainer {
-  width: 90%;
-  margin: auto;
-  margin-top: 5dvh;
-  margin-bottom: 5dvh;
-  display: flex;
-
-}
-
-.summaryInput {
-  width: 50%;
-  margin: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.summaryOutput {
-  width: 50%;
-  margin: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.summarytextarea {
-  border: 2px solid black;
-  border-radius: 10px;
-  padding: 10px;
-}
-
-.submit-button {
-  background-color: #ef5b25;
-  color: #ffffff;
-  font-weight: bold;
-  border-radius: 4px;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}

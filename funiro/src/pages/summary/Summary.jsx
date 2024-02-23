@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import axios from "axios"
-
+import "./summary.css"
 const Summary = () => {
   const [textValue, setTextValue] = useState();
   const [outputValue, setoutputValue] = useState();
