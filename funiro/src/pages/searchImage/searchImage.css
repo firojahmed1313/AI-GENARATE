@@ -2,10 +2,24 @@
     border: 2px solid blue;
     border-radius: 20px;
 }
+.container >h2{
+    color: blue;
+    text-align: center;
+}
 .searchItemdiv{
+    
+    width: 40%;
+    margin: auto;
+
+
+}
+.inputSearch{
+    width: 70%;
+    margin-left: 15%;
+    height: 28px;
     border: 2px solid black;
     border-radius: 20px;
-
+    padding: 3px 20px;
 }
 .imagecontainer{
     border: 2px solid red;
