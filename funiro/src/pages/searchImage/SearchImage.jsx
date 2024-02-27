@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "./searchImage.css"
-
+import axios from "axios"
+import DisplayImage from './DisplayImage';
 const SearchImage = () => {
-    const url="https://api.unsplash.com/search/photos?page=1&query=office&client_id=P5nEHiXSdgh6OZttsMSEAF51TN9BU_Om9xaon5TrPkg";
+  const [urlData, setUrlData] = useState();
+  
   return (
-    <div>SearchImage</div>
+    <>
+      <div className='container'>
+        <div className='searchItemdiv'>
+            <input placeholder='Enter Keyword'  />
+        </div>
+        <DisplayImage/>
+      </div>
+    </>
   )
 }
 

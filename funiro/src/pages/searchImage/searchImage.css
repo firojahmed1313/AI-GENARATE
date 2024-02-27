@@ -1,0 +1,19 @@
+.container{
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+.searchItemdiv{
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+.imagecontainer{
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.imagediv{
+    border-radius: 10px;
+
+}
