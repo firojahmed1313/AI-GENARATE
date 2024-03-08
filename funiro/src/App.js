@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Home from './pages/Home';
 import Summary from './pages/summary/Summary';
 import SearchImage from './pages/searchImage/SearchImage';
+import Home from './pages/home/Home';
 
 function App() {
   return (

@@ -1,0 +1,45 @@
+.home{
+    border: 2px solid red;
+    margin: auto;
+    width: 90%;
+    min-height: fit-content;
+    height: 90dvh;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.homeContainer{
+    width: 30%;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.homeImage{
+    width: 90%;
+    aspect-ratio: 1.5;
+    border-radius: 15px;
+}
+.homeTitle{
+
+}
+.homeButton{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: auto;
+    width: fit-content;
+    min-height: fit-content;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.homeButton:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.2s;
+    border: 2px solid red;
+}
